@@ -132,3 +132,48 @@
 .card-details p{
     margin-top: 1rem;
 }
+
+@media screen and (max-width:768px) {
+    .nav-links{
+        display: none;
+    }
+
+    .hero-container{
+        height: 150vh;
+        background-color: #6c38d3;
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-right-section img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .saas-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .saas-right-section{
+        margin-left: 5rem;
+    }
+
+    .customer-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-feature{
+        margin-left: 3rem;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
